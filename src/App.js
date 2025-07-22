@@ -3,9 +3,9 @@ import Assignment from './component/Assignment';
 
 function App() {
   return (
-    <div>
-<Assignment></Assignment>
+    <div className="App">
 
+      <Assignment></Assignment>
     </div>
   );
 }

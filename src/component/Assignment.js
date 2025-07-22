@@ -5,22 +5,19 @@ function Assignment() {
     const [artworks, setArtworks] = useState([]);
 
     const fetchData = () => {
-        const baseURL=`https://api.artic.edu/api/v1/artworks?page=1`;
+        const baseURL = `https://api.artic.edu/api/v1/artworks?page=1`;
         axios.get(baseURL).then((response) => {
-
-                setArtworks(response.data); 
-            })
-
-            .catch(error => {
-
-                console.error("Error fetching data");
-            });
+            setArtworks(response.data.data); 
+        }).catch(error => {
+            console.error("Error fetching data");
+        });
     };
+
     return (
         <div style={{ padding: '20px' }}>
             <h2>Artworks Table</h2>
-            <button onClick={fetchData}>Art Load</button> 
-            
+            <button onClick={fetchData}>Art Load</button>
+
             <table style={{ marginTop: '20px', width: '100%', borderCollapse: 'collapse' }} border="1" cellPadding="8">
                 <thead>
                     <tr>
