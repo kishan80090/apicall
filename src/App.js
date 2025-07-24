@@ -1,13 +1,13 @@
 import './App.css';
-import Assignment from './component/Assignment';
+import Shop from './component/Shop';
 
 function App() {
   return (
-    <div className="App">
-
-      <Assignment></Assignment>
+    <div>
+      
+      <Shop></Shop>
+      
     </div>
   );
 }
-
 export default App;

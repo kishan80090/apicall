@@ -1,0 +1,84 @@
+.header{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.753);
+  width: 1366px;
+  height: 50px;
+}
+.searchbox{
+  display: flex;
+  width: 400px;
+  height: 30px;
+  margin-left: 300px;
+  margin-top: 8px;
+  font-size: 20px;
+  z-index: 1000;
+}
+.tex{
+  color: orange;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.option{
+  width: 70px;
+  height: 30px;
+  margin-left: -485px;
+  margin-top: 8px;
+}
+.signing{
+  margin-left: 600px;
+  text-decoration: none; 
+font-size: 20px;
+}
+.signing:visited{
+  color: rgb(250, 249, 249);
+}
+.signing:active{
+  color: rgb(250, 248, 248);
+}
+.signingmargin{
+  margin-top: 10px;
+}
+.lanmargin{
+  height: 25px;
+  margin-left: 170px;
+  width: 80px;
+  position: absolute;
+  margin-top: -25px;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-color: rgba(0, 0, 0, 0.651);
+  color: white;
+}
+.order{
+  position: absolute;
+  margin: 340px;
+  margin-top: -13px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.order:visited{
+  color: rgb(250, 249, 249);
+}
+.order:active{
+  color: rgb(250, 248, 248);
+}
+.card{
+  position: absolute;
+  margin: 245px;
+  margin-top: -6px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.card:visited{
+  color: white;
+}
+.card:active{
+  color: white;
+}
+.bottom{
+  position: absolute;
+  width: 50px;
+  height: 36px;
+  margin-left: -177.8px;
+  margin-top: -10px;
+}
