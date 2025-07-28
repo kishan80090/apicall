@@ -7,25 +7,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const categories = [
   { name: 'Grocery', img: 'https://img.icons8.com/fluency/48/soap.png' },
   { name: 'Mobiles', img: 'https://img.icons8.com/fluency/48/iphone.png' },
-  
-  {
-    name: 'Electronics', img: 'https://img.icons8.com/fluency/48/laptop.png',
-    // subcategories: ['Mobiles', 'Laptops', 'Cameras']
-  },
-  {
-    name: 'Home & Furniture', img: 'https://img.icons8.com/fluency/48/armchair.png',
-    // subcategories: ['Sofa', 'Beds', 'Dining']
-  },
-  // { name: 'Appliances', img: 'https://img.icons8.com/fluency/48/microwave.png' },
-
-  {
-    name: 'Beauty, Toys & More', img: 'https://img.icons8.com/fluency/48/teddy-bear.png',
-    // subcategories: ['Beauty', 'Toys', 'Sports']
-  },
-  {
-    name: 'Two Wheelers', img: 'https://img.icons8.com/fluency/48/motorcycle.png',
-    // subcategories: ['Bikes', 'Scooters']
-  }
+  {name: 'Electronics', img: 'https://img.icons8.com/fluency/48/laptop.png'},
+  {name: 'Home & Furniture', img: 'https://img.icons8.com/fluency/48/armchair.png'},
+  {name: 'Beauty, Toys & More', img: 'https://img.icons8.com/fluency/48/teddy-bear.png'},
+  { name: 'Two Wheelers', img: 'https://img.icons8.com/fluency/48/motorcycle.png'}
 ];
 
 const Search = () => {
@@ -62,7 +47,6 @@ const Search = () => {
           </div>
         </div>
       </div>
-      
       <div className="category-bar">
         {categories.map((cat, index) => (
           <div className="category-item" key={index}>
@@ -80,7 +64,6 @@ const Search = () => {
           </div>
         ))}
       </div>
-
 <div className="carousel-container mt-3">
   <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-indicators">
